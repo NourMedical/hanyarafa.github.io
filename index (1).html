@@ -1,0 +1,895 @@
+<!doctype html>
+<html lang="ar" dir="rtl">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
+<title>هاني عرفة | خدمات محاسبية ومالية للأعمال في السعودية</title>
+<meta name="description" content="دعم محاسبي ومالي عن بُعد للأعمال في السعودية: تنظيم الحسابات، المطابقات البنكية، تسويات بوابات الدفع، تقارير Excel وتحليل المبيعات.">
+<meta name="theme-color" content="#0B1F3F">
+<meta property="og:title" content="هاني عرفة | خدمات محاسبية ومالية">
+<meta property="og:description" content="تنظيم الحسابات، المطابقات البنكية، تسويات بوابات الدفع، وتحليل البيانات المالية.">
+<meta property="og:type" content="website">
+<meta property="og:locale" content="ar_SA">
+<meta name="twitter:card" content="summary">
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' rx='14' fill='%230B1F3F'/%3E%3Ctext x='32' y='42' font-size='28' text-anchor='middle' fill='%23D9BC7E' font-family='Georgia,serif' font-weight='700'%3EHA%3C/text%3E%3C/svg%3E">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<!-- Tajawal هو الخط الأساسي، وCairo بديل عند تعذر تحميله. الأوزان المطلوبة هي المتوفرة فعليًا لكل خط. -->
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Tajawal:wght@400;500;700;800&family=Cairo:wght@400;500;700&display=swap">
+<script>try{var t=localStorage.getItem("ha-theme");if(t==="dark"||t==="light")document.documentElement.setAttribute("data-theme",t)}catch(e){}</script>
+<script type="application/ld+json">{"@context":"https://schema.org","@type":"ProfessionalService","name":"هاني عرفة","description":"خدمات محاسبية ومالية وتحليل بيانات للشركات والمنشآت في المملكة العربية السعودية، تُقدَّم عن بُعد.","areaServed":{"@type":"Country","name":"المملكة العربية السعودية"},"telephone":"+966592401822","email":"hanyarafa08@gmail.com","inLanguage":"ar"}</script>
+<style>
+/* =========================================================
+   هاني عرفة: خدمات محاسبية ومالية
+   ورقة أنماط واحدة: كحلي وأبيض وذهبي هادئ، بخط Tajawal.
+   الترتيب: الرموز (tokens) ثم الأساسيات ثم المكونات ثم الأقسام ثم الاستجابة.
+   ========================================================= */
+:root{
+  /* الخطوط: Tajawal ثم Cairo ثم خطوط النظام العربية */
+  --font:"Tajawal","Cairo","Segoe UI",Tahoma,"Noto Sans Arabic",system-ui,-apple-system,sans-serif;
+  /* سلّم الأحجام */
+  --fs-xs:.8125rem; --fs-sm:.9375rem; --fs-base:1.0625rem; --fs-lg:1.25rem;
+  --fs-h3:1.2rem; --fs-h2:clamp(1.75rem,3.4vw,2.45rem); --fs-h1:clamp(2.15rem,4.8vw,3.5rem);
+  /* سلّم الأوزان (المتوفرة في Tajawal) */
+  --fw-regular:400; --fw-medium:500; --fw-bold:700; --fw-black:800;
+  --lh-tight:1.4; --lh-body:1.85;
+  /* الأبعاد */
+  --r-sm:8px; --r-md:12px; --r-lg:16px; --header-h:76px;
+
+  /* الألوان (الوضع الفاتح) */
+  --navy:#0B1F3F; --navy-2:#12305C;
+  --gold:#C9A45C; --gold-soft:#D9BC7E; --on-gold:#0B1F3F; --gold-text:#8A6828;
+  --bg:#FFFFFF; --surface:#F5F7FB; --card:#FFFFFF; --input-bg:#FBFCFE; --icon-bg:#F8F2E4;
+  --ink:#0B1F3F; --muted:#4B5A76; --line:#E1E6EF; --header-bg:#FFFFFF;
+  --hero-bg:#0B1F3F; --hero-bg-2:#12305C; --hero-ink:#F5F7FB; --hero-muted:#BCC8DE; --hero-line:rgba(201,164,92,.38);
+  --footer-bg:#0B1F3F;
+  --bar:#16346A; --bar-hi:#C9A45C;
+  --ok:#1B7F4B; --ok-bg:#E4F4EB; --warn:#8A5A00; --warn-bg:#FBF0D9;
+  --bad:#A3302B; --bad-bg:#FBE6E4; --idle:#4B5A76; --idle-bg:#E9EDF4;
+  --wa:#128C4A;
+  --sh-1:0 4px 16px rgba(11,31,63,.05); --sh-2:0 14px 34px rgba(11,31,63,.11);
+  color-scheme:light;
+}
+@media (prefers-color-scheme: dark){
+  :root:not([data-theme="light"]){
+    --bg:#08162E; --surface:#0C1D3B; --card:#0F2347; --input-bg:#0B1D3A; --icon-bg:#1A2C4D;
+    --ink:#EEF2F9; --muted:#A9B6CE; --line:#223C69; --header-bg:#08162E; --gold-text:#D6B36F;
+    --hero-bg:#0B1B3A; --hero-bg-2:#10295A; --footer-bg:#050F20;
+    --bar:#5C84C9;
+    --ok:#6FD3A0; --ok-bg:#12372A; --warn:#E8C173; --warn-bg:#3A2D10; --bad:#F2A09B; --bad-bg:#3E1A1A;
+    --idle:#A9B6CE; --idle-bg:#1A3158;
+    --sh-1:0 4px 16px rgba(0,0,0,.28); --sh-2:0 14px 34px rgba(0,0,0,.4);
+    color-scheme:dark;
+  }
+}
+:root[data-theme="dark"]{
+  --bg:#08162E; --surface:#0C1D3B; --card:#0F2347; --input-bg:#0B1D3A; --icon-bg:#1A2C4D;
+  --ink:#EEF2F9; --muted:#A9B6CE; --line:#223C69; --header-bg:#08162E; --gold-text:#D6B36F;
+  --hero-bg:#0B1B3A; --hero-bg-2:#10295A; --footer-bg:#050F20;
+  --bar:#5C84C9;
+  --ok:#6FD3A0; --ok-bg:#12372A; --warn:#E8C173; --warn-bg:#3A2D10; --bad:#F2A09B; --bad-bg:#3E1A1A;
+  --idle:#A9B6CE; --idle-bg:#1A3158;
+  --sh-1:0 4px 16px rgba(0,0,0,.28); --sh-2:0 14px 34px rgba(0,0,0,.4);
+  color-scheme:dark;
+}
+
+/* ---------- الأساسيات ---------- */
+*,*::before,*::after{box-sizing:border-box}
+html{scroll-behavior:smooth;scroll-padding-top:calc(var(--header-h) + 8px);-webkit-text-size-adjust:100%}
+body{margin:0;background:var(--bg);color:var(--ink);font-family:var(--font);font-size:var(--fs-base);font-weight:var(--fw-regular);line-height:var(--lh-body);overflow-wrap:break-word;text-rendering:optimizeLegibility}
+h1,h2,h3,h4{font-family:var(--font);font-weight:var(--fw-bold);margin:0;line-height:var(--lh-tight);text-wrap:balance}
+p{margin:0}
+a{color:inherit}
+img,svg{max-width:100%}
+button,input,select,textarea{font:inherit;color:inherit}
+:focus-visible{outline:3px solid var(--gold);outline-offset:3px}
+[hidden]{display:none!important}
+section{scroll-margin-top:var(--header-h)}
+.wrap{max-width:1180px;margin-inline:auto;padding-left:max(16px,env(safe-area-inset-left,0px));padding-right:max(16px,env(safe-area-inset-right,0px))}
+.sr{position:absolute;width:1px;height:1px;overflow:hidden;clip:rect(0 0 0 0);white-space:nowrap}
+.skip{position:absolute;inset-inline-start:16px;top:-80px;z-index:100;background:var(--navy);color:#fff;padding:10px 18px;border-radius:var(--r-sm);font-weight:var(--fw-bold);text-decoration:none}
+.skip:focus{top:12px}
+.num,.ltr{direction:ltr;unicode-bidi:isolate}
+.num{text-align:left;font-variant-numeric:tabular-nums}
+
+/* ---------- الأزرار ---------- */
+.btn{display:inline-flex;align-items:center;justify-content:center;gap:8px;min-height:48px;padding:10px 24px;border-radius:10px;border:1px solid transparent;font-size:var(--fs-base);font-weight:var(--fw-bold);text-decoration:none;cursor:pointer;line-height:1.3;transition:transform .18s ease,box-shadow .18s ease,background .2s,color .2s,border-color .2s}
+.btn:hover{transform:translateY(-1px);box-shadow:0 7px 18px rgba(11,31,63,.14)}
+.btn svg{width:20px;height:20px;flex:none}
+.btn-gold{background:linear-gradient(135deg,var(--gold-soft),var(--gold));color:var(--on-gold)}
+.btn-ghost{border-color:var(--hero-line);color:var(--hero-ink);background:transparent}
+.btn-ghost:hover{border-color:var(--gold);color:var(--gold-soft)}
+.btn-line{border-color:var(--ink);color:var(--ink);background:transparent;min-height:44px;padding:8px 18px;font-size:var(--fs-sm)}
+.btn-line:hover{background:var(--ink);color:var(--bg)}
+.btn-wa{background:var(--wa);color:#fff}
+.btn-wa:hover{filter:brightness(1.1)}
+
+/* ---------- الرأس والتنقل ---------- */
+.site-header{position:sticky;top:0;z-index:50;background:var(--header-bg);border-bottom:1px solid var(--line);padding-top:env(safe-area-inset-top,0px)}
+@supports (backdrop-filter:blur(1px)){
+  .site-header{background:color-mix(in srgb,var(--header-bg) 92%,transparent);backdrop-filter:saturate(140%) blur(14px)}
+}
+.hbar{display:flex;align-items:center;gap:20px;min-height:var(--header-h)}
+.brand{display:flex;align-items:center;gap:12px;text-decoration:none;min-width:0}
+.mono{width:44px;height:44px;flex:none;display:grid;place-items:center;border:1px solid var(--gold);border-radius:var(--r-md);background:linear-gradient(145deg,rgba(201,164,92,.16),transparent);color:var(--gold-text);font-weight:var(--fw-black);font-size:1.1rem;letter-spacing:.02em;direction:ltr}
+.brand-text{display:flex;flex-direction:column;line-height:1.2;direction:ltr;text-align:left}
+.brand-name{font-weight:var(--fw-black);font-size:1.4rem;color:var(--ink)}
+.brand-sub{font-size:.62rem;letter-spacing:.1em;text-transform:uppercase;color:var(--muted);font-weight:var(--fw-medium)}
+.nav{display:flex;gap:2px;margin-inline-start:auto;align-items:center}
+.nav a{padding:9px 12px;border-radius:var(--r-sm);text-decoration:none;font-size:var(--fs-sm);font-weight:var(--fw-medium);color:var(--ink);transition:background .2s,color .2s}
+.nav a:hover{background:var(--surface)}
+.nav a[aria-current="location"]{color:var(--gold-text);background:var(--icon-bg);font-weight:var(--fw-bold)}
+.hactions{display:flex;gap:8px;align-items:center}
+.icon-btn{width:44px;height:44px;display:grid;place-items:center;border:1px solid var(--line);background:transparent;border-radius:10px;cursor:pointer;transition:border-color .2s}
+.icon-btn:hover{border-color:var(--gold)}
+.icon-btn svg{width:20px;height:20px}
+.menu-btn{display:none}
+.hcta{min-height:44px;padding:6px 20px;font-size:var(--fs-sm)}
+
+/* ---------- الواجهة الرئيسية ---------- */
+.hero{position:relative;color:var(--hero-ink);border-bottom:3px solid var(--gold);
+  background-color:var(--hero-bg);
+  background-image:radial-gradient(ellipse at 82% 8%,rgba(201,164,92,.18),transparent 42%),repeating-linear-gradient(to bottom,transparent 0 43px,rgba(201,164,92,.08) 43px 44px),linear-gradient(115deg,var(--hero-bg) 0%,var(--hero-bg-2) 100%)}
+.hero-grid{display:grid;grid-template-columns:minmax(0,1.15fr) minmax(0,.85fr);gap:clamp(28px,5vw,64px);align-items:center;padding-block:clamp(48px,7vw,96px)}
+.kicker{display:inline-flex;align-items:center;gap:12px;color:var(--gold-soft);font-weight:var(--fw-bold);font-size:var(--fs-sm);margin-bottom:18px}
+.kicker::before{content:"";width:34px;height:1px;background:var(--gold-soft);flex:none}
+.hero h1{font-size:var(--fs-h1);font-weight:var(--fw-black);line-height:1.4}
+.hero h1 em{font-style:normal;color:var(--gold-soft)}
+.hero .lead{margin-top:22px;font-size:clamp(1.06rem,1.6vw,1.22rem);line-height:1.95;color:var(--hero-muted);max-width:56ch}
+.hero-cta{display:flex;flex-wrap:wrap;gap:12px;margin-top:32px}
+.ledger{border:1px solid var(--hero-line);border-radius:18px;background:rgba(255,255,255,.06);color:var(--hero-ink);padding:clamp(18px,3vw,28px);min-width:0;box-shadow:0 24px 60px rgba(0,0,0,.18)}
+.ledger-head{display:flex;justify-content:space-between;align-items:center;gap:12px;flex-wrap:wrap;padding-bottom:14px;border-bottom:1px solid var(--hero-line);margin-bottom:6px}
+.ledger-head strong{font-size:1.1rem;font-weight:var(--fw-bold)}
+.tag{font-size:var(--fs-xs);padding:2px 12px;border:1px solid var(--gold);color:var(--gold-soft);border-radius:999px;white-space:nowrap;font-weight:var(--fw-medium)}
+.lrow{display:flex;justify-content:space-between;gap:16px;padding:11px 0;border-bottom:1px dotted rgba(188,200,222,.35);font-size:var(--fs-base)}
+.lrow span:first-child{color:var(--hero-muted)}
+.lrow .v{direction:ltr;font-variant-numeric:tabular-nums;color:var(--hero-ink)}
+.lrow.net{border-bottom:0;padding-top:16px;font-weight:var(--fw-bold)}
+.lrow.net span:first-child{color:var(--hero-ink)}
+.lrow.net .v{color:var(--gold-soft);font-size:1.3rem}
+.spark{display:flex;align-items:flex-end;gap:8px;height:64px;margin-top:14px}
+.spark i{flex:1;background:rgba(201,164,92,.32);display:block;border-radius:4px 4px 0 0}
+.spark i:last-child{background:var(--gold)}
+.ledger-foot{margin-top:12px;font-size:var(--fs-xs);color:var(--hero-muted)}
+.strip{border-top:1px solid var(--hero-line);background:rgba(4,14,30,.18)}
+.strip ul{list-style:none;margin:0;padding:0;display:grid;grid-template-columns:repeat(4,minmax(0,1fr))}
+.strip li{padding:20px 8px;font-weight:var(--fw-bold);font-size:var(--fs-sm);color:var(--hero-ink);display:flex;align-items:center;gap:12px}
+.strip li+li{border-inline-start:1px solid var(--hero-line);padding-inline-start:20px}
+.strip li::before{content:"";width:9px;height:9px;border-radius:50%;background:var(--gold);box-shadow:0 0 0 4px rgba(201,164,92,.16);flex:none}
+
+/* ---------- الأقسام ---------- */
+.section{padding-block:clamp(58px,8vw,96px)}
+.section.alt{background:var(--surface)}
+.eyebrow{display:inline-flex;align-items:center;gap:12px;color:var(--gold-text);font-weight:var(--fw-bold);font-size:var(--fs-sm);margin-bottom:12px}
+.eyebrow::before{content:"";width:28px;height:1px;background:var(--gold);flex:none}
+.sec-head{max-width:68ch;margin-bottom:40px}
+.sec-head h2{font-size:var(--fs-h2)}
+.sec-head p{margin-top:14px;color:var(--muted);line-height:1.9}
+
+/* الخدمات */
+.svc-grid{display:grid;grid-template-columns:repeat(4,minmax(0,1fr));gap:14px}
+.svc{position:relative;overflow:hidden;display:flex;flex-direction:column;gap:14px;padding:26px 22px;background:var(--card);border:1px solid var(--line);border-radius:14px;box-shadow:var(--sh-1);min-width:0;transition:transform .2s,box-shadow .2s,border-color .2s}
+.svc::after{content:"";position:absolute;inset:0 0 auto;height:3px;background:linear-gradient(90deg,var(--gold),var(--gold-soft));transform:scaleX(0);transform-origin:right;transition:transform .22s}
+.svc:hover{transform:translateY(-3px);box-shadow:var(--sh-2);border-color:var(--gold)}
+.svc:hover::after{transform:scaleX(1)}
+.svc .ic{width:50px;height:50px;display:grid;place-items:center;border-radius:var(--r-md);background:var(--icon-bg);color:var(--gold-text)}
+.svc .ic svg{width:24px;height:24px;fill:none;stroke:currentColor;stroke-width:1.6;stroke-linecap:round;stroke-linejoin:round}
+.svc h3{font-size:var(--fs-h3)}
+.svc p{color:var(--muted);font-size:var(--fs-sm);line-height:1.85}
+.svc .btn{margin-top:auto;align-self:flex-start}
+
+/* نبذة عني */
+.about-grid{display:grid;grid-template-columns:minmax(0,1.1fr) minmax(0,.9fr);gap:clamp(28px,5vw,60px);align-items:center}
+.about-name{font-size:var(--fs-h2)}
+.about-text{margin-top:18px;color:var(--muted);line-height:1.95}
+.about-text p+p{margin-top:16px}
+.vals{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:16px;margin-top:32px}
+.val{border-top:2px solid var(--gold);padding-top:14px}
+.val b{display:block;font-size:var(--fs-lg);font-weight:var(--fw-bold)}
+.val span{display:block;color:var(--muted);font-size:var(--fs-sm);line-height:1.7;margin-top:4px}
+.steps{background:var(--card);border:1px solid var(--line);border-radius:14px;overflow:hidden;box-shadow:var(--sh-1)}
+.steps h3{font-size:var(--fs-lg);padding:20px 24px;background:var(--icon-bg);color:var(--gold-text)}
+.steps ol{list-style:none;margin:0;padding:0;counter-reset:s}
+.steps li{padding:22px 24px;counter-increment:s;display:grid;grid-template-columns:40px minmax(0,1fr);gap:16px;border-top:1px solid var(--line)}
+.steps li:first-child{border-top:0}
+.steps li::before{content:counter(s);font-weight:var(--fw-black);font-size:1.7rem;color:var(--gold-text);line-height:1.2}
+.steps li b{display:block;font-weight:var(--fw-bold)}
+.steps li span{display:block;color:var(--muted);font-size:var(--fs-sm);line-height:1.8}
+
+/* لماذا أنا */
+.why-grid{display:grid;grid-template-columns:repeat(4,minmax(0,1fr));gap:16px}
+.why-card{background:var(--card);border:1px solid var(--line);border-radius:14px;padding:24px 22px;box-shadow:var(--sh-1);min-width:0}
+.why-ic{display:grid;place-items:center;width:46px;height:46px;border-radius:var(--r-md);background:var(--icon-bg);color:var(--gold-text)}
+.why-ic svg{width:22px;height:22px;fill:none;stroke:currentColor;stroke-width:1.7;stroke-linecap:round;stroke-linejoin:round}
+.why-card h3{font-size:var(--fs-lg);margin-top:16px}
+.why-card p{font-size:var(--fs-sm);line-height:1.85;color:var(--muted);margin-top:8px}
+
+/* النماذج التوضيحية */
+.notice{display:flex;gap:12px;align-items:flex-start;border:1px solid var(--gold);border-radius:var(--r-md);background:var(--card);padding:14px 18px;margin-bottom:24px;font-size:var(--fs-sm)}
+.notice b{color:var(--gold-text);white-space:nowrap;font-weight:var(--fw-bold)}
+.tabs{display:flex;flex-wrap:wrap;gap:8px;margin-bottom:22px}
+.tab{background:var(--card);border:1px solid var(--line);border-radius:10px;padding:10px 18px;font-weight:var(--fw-bold);font-size:var(--fs-sm);cursor:pointer;color:var(--muted);transition:background .2s,color .2s,border-color .2s}
+.tab:hover{color:var(--ink);border-color:var(--gold)}
+.tab[aria-selected="true"]{background:var(--icon-bg);color:var(--ink);border-color:var(--gold)}
+.kpis{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:16px;margin-bottom:20px}
+.kpi{background:var(--card);border:1px solid var(--line);border-radius:var(--r-md);padding:16px 18px;min-width:0;box-shadow:var(--sh-1)}
+.kpi small{display:block;color:var(--muted);font-size:var(--fs-xs)}
+.kpi strong{display:block;font-size:1.5rem;font-weight:var(--fw-black);direction:ltr;text-align:right;font-variant-numeric:tabular-nums;margin-top:2px}
+.kpi.hi strong{color:var(--gold-text)}
+.tablewrap{overflow-x:auto;border:1px solid var(--line);border-radius:var(--r-md);background:var(--card)}
+table{border-collapse:collapse;width:100%;min-width:680px;font-size:var(--fs-sm)}
+th,td{padding:12px 14px;text-align:right;border-bottom:1px solid var(--line);white-space:nowrap;line-height:1.5}
+th{background:var(--surface);color:var(--muted);font-weight:var(--fw-bold);font-size:var(--fs-xs)}
+th.num{text-align:left}
+tbody tr:last-child td{border-bottom:0}
+tfoot td{font-weight:var(--fw-bold);background:var(--surface);border-top:2px solid var(--gold);border-bottom:0}
+.pill{display:inline-block;padding:1px 12px;border-radius:999px;font-size:var(--fs-xs);font-weight:var(--fw-bold)}
+.pill.ok{color:var(--ok);background:var(--ok-bg)}
+.pill.warn{color:var(--warn);background:var(--warn-bg)}
+.pill.bad{color:var(--bad);background:var(--bad-bg)}
+.pill.idle{color:var(--idle);background:var(--idle-bg)}
+.cap{margin-top:14px;color:var(--muted);font-size:var(--fs-sm)}
+.dash{display:grid;grid-template-columns:minmax(0,1.2fr) minmax(0,1fr);gap:20px}
+.panel{background:var(--card);border:1px solid var(--line);border-radius:var(--r-md);padding:22px;min-width:0;box-shadow:var(--sh-1)}
+.panel h3{font-size:var(--fs-lg);margin-bottom:4px}
+.panel .sub{color:var(--muted);font-size:var(--fs-xs);margin-bottom:18px}
+.bars{display:flex;align-items:flex-end;gap:12px;height:220px;padding-top:24px;background-image:repeating-linear-gradient(to top,transparent 0 54px,var(--line) 54px 55px)}
+.bcol{flex:1;min-width:0;display:flex;flex-direction:column;justify-content:flex-end;align-items:center;height:100%;gap:6px}
+.bcol .b{width:100%;max-width:46px;background:var(--bar);border-radius:4px 4px 0 0}
+.bcol.hi .b{background:var(--bar-hi)}
+.bcol .bv{font-size:var(--fs-xs);font-variant-numeric:tabular-nums;color:var(--muted)}
+.mlabels{display:flex;gap:12px;margin-top:8px}
+.mlabels span{flex:1;text-align:center;font-size:var(--fs-xs);color:var(--muted);min-width:0}
+.drow{margin-bottom:18px}
+.drow:last-child{margin-bottom:0}
+.dtop{display:flex;justify-content:space-between;gap:8px;font-size:var(--fs-sm);margin-bottom:6px}
+.dtop b{direction:ltr;font-variant-numeric:tabular-nums;font-weight:var(--fw-bold)}
+.dtrack{height:10px;background:var(--surface);border-radius:999px;overflow:hidden}
+.dfill{height:100%;background:var(--bar);border-radius:999px}
+.dfill.hi{background:var(--bar-hi)}
+.dmeta{font-size:var(--fs-xs);color:var(--muted);margin-top:4px}
+
+/* الأسئلة الشائعة */
+.faq{max-width:840px}
+.faq details{border:1px solid var(--line);border-radius:var(--r-md);background:var(--card);margin-bottom:10px;padding-inline:20px;box-shadow:var(--sh-1);transition:border-color .2s}
+.faq details[open]{border-color:var(--gold)}
+.faq summary{list-style:none;cursor:pointer;padding-block:18px;font-size:var(--fs-lg);font-weight:var(--fw-bold);display:flex;justify-content:space-between;align-items:center;gap:16px}
+.faq summary::-webkit-details-marker{display:none}
+.faq summary::after{content:"+";font-size:1.6rem;font-weight:var(--fw-regular);color:var(--gold-text);line-height:1;flex:none}
+.faq details[open] summary::after{content:"\2212"}
+.faq details p{padding:0 0 20px;color:var(--muted);line-height:1.9;max-width:68ch}
+
+/* التواصل */
+.contact-grid{display:grid;grid-template-columns:minmax(0,.8fr) minmax(0,1.2fr);border:1px solid var(--line);border-radius:var(--r-lg);overflow:hidden;box-shadow:var(--sh-2)}
+.cside{background-color:var(--hero-bg);background-image:radial-gradient(ellipse at 10% 0%,rgba(201,164,92,.16),transparent 50%),linear-gradient(145deg,var(--hero-bg),var(--hero-bg-2));color:var(--hero-ink);padding:clamp(24px,4vw,38px);display:flex;flex-direction:column;gap:20px;min-width:0}
+.cside h3{font-size:1.6rem;font-weight:var(--fw-black)}
+.cside p{color:var(--hero-muted);line-height:1.9}
+.cside .btn{align-self:flex-start}
+.cdetails{list-style:none;margin:0;padding:18px 0 0;display:grid;gap:14px;border-top:1px solid var(--hero-line)}
+.cdetails:empty{display:none}
+.cdetails li{display:flex;flex-direction:column;gap:2px}
+.cdetails small{color:var(--gold-soft);font-size:var(--fs-xs);font-weight:var(--fw-medium)}
+.contact-link{direction:ltr;text-align:right;overflow-wrap:anywhere;color:var(--hero-ink);text-decoration:none;border-bottom:1px dashed var(--hero-line);width:fit-content;max-width:100%}
+.contact-link:hover{color:var(--gold-soft)}
+.cform{background:var(--card);padding:clamp(24px,4vw,38px);min-width:0}
+.fgrid{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:16px}
+.field{display:flex;flex-direction:column;gap:6px;min-width:0}
+.field.full{grid-column:1/-1}
+.field label{font-weight:var(--fw-bold);font-size:var(--fs-sm)}
+.field label i{font-style:normal;font-weight:var(--fw-regular);color:var(--muted)}
+input,select,textarea{width:100%;padding:11px 14px;border:1px solid var(--line);background:var(--input-bg);border-radius:10px;min-height:48px;transition:border-color .2s,box-shadow .2s}
+textarea{min-height:130px;resize:vertical}
+input:focus,select:focus,textarea:focus{outline:none;border-color:var(--gold);box-shadow:0 0 0 3px rgba(201,164,92,.22)}
+input[aria-invalid="true"],textarea[aria-invalid="true"]{border-color:var(--bad)}
+.ltr-input{direction:ltr;text-align:right}
+.err{color:var(--bad);font-size:var(--fs-xs);min-height:1.3em;font-weight:var(--fw-medium)}
+.form-actions{margin-top:20px}
+.fnote{font-size:var(--fs-xs);color:var(--muted);margin-top:14px;line-height:1.8}
+.result{margin-top:24px;border:1px solid var(--gold);border-radius:var(--r-md);padding:20px;background:var(--surface)}
+.result h4{font-size:var(--fs-lg);margin:0 0 4px}
+.result p{color:var(--muted);font-size:var(--fs-sm);margin-bottom:12px}
+.result textarea{min-height:170px;margin-bottom:12px;background:var(--card)}
+.result .row{display:flex;flex-wrap:wrap;gap:10px;align-items:center}
+.status{font-size:var(--fs-sm);color:var(--gold-text);font-weight:var(--fw-bold)}
+
+/* التذييل والزر العائم */
+footer{background-color:var(--footer-bg);background-image:radial-gradient(ellipse at 80% 0%,rgba(201,164,92,.1),transparent 45%);color:#D3DCEC;border-top:3px solid var(--gold);padding-block:40px calc(28px + env(safe-area-inset-bottom,0px))}
+.fgrid2{display:flex;justify-content:space-between;gap:28px;flex-wrap:wrap;align-items:flex-start}
+footer .brand-name{color:#fff}
+footer .brand-sub{color:#A9B8D0}
+footer .mono{color:var(--gold-soft)}
+.flinks{display:flex;flex-wrap:wrap;gap:6px 22px}
+.flinks a{text-decoration:none;color:#D3DCEC;font-size:var(--fs-sm)}
+.flinks a:hover{color:var(--gold-soft)}
+.copy{border-top:1px solid rgba(201,164,92,.3);margin-top:28px;padding-top:18px;font-size:var(--fs-xs);color:#A9B8D0}
+.fab{position:fixed;left:calc(16px + env(safe-area-inset-left,0px));bottom:calc(16px + env(safe-area-inset-bottom,0px));z-index:45;display:inline-flex;align-items:center;gap:10px;background:var(--wa);color:#fff;text-decoration:none;font-weight:var(--fw-bold);padding:13px 20px;border-radius:16px;box-shadow:0 10px 28px rgba(18,140,74,.3);transition:opacity .2s,transform .2s,visibility .2s,filter .2s}
+.fab:hover{filter:brightness(1.1)}
+.fab.is-hidden{opacity:0;visibility:hidden;transform:translateY(10px)}
+.fab svg{width:24px;height:24px;flex:none}
+
+/* ---------- الاستجابة ---------- */
+@media (max-width:1100px){
+  .svc-grid,.why-grid{grid-template-columns:repeat(2,minmax(0,1fr))}
+  .nav a{padding-inline:8px}
+}
+@media (max-width:1000px){
+  .hero-grid,.about-grid,.dash,.contact-grid{grid-template-columns:minmax(0,1fr)}
+  .hero-grid{gap:36px}
+  .ledger{max-width:560px;width:100%}
+}
+@media (max-width:900px){
+  :root{--header-h:68px}
+  .menu-btn{display:grid}
+  .nav{display:none;position:absolute;top:100%;inset-inline:0;flex-direction:column;align-items:stretch;gap:0;background:var(--header-bg);border-bottom:1px solid var(--line);box-shadow:0 14px 24px rgba(11,31,63,.1);padding:8px max(16px,env(safe-area-inset-left,0px)) 12px max(16px,env(safe-area-inset-right,0px))}
+  .nav.open{display:flex}
+  .nav a{padding:14px 8px;font-size:var(--fs-base);border-radius:0;border-bottom:1px solid var(--line)}
+  .nav a:last-child{border-bottom:0}
+  .hactions{margin-inline-start:auto}
+  .strip ul{grid-template-columns:repeat(2,minmax(0,1fr))}
+  .strip li{padding:14px 8px}
+  .strip li:nth-child(3){border-inline-start:0;padding-inline-start:8px}
+  .strip li:nth-child(n+3){border-top:1px solid var(--hero-line)}
+}
+@media (max-width:600px){
+  .hcta{display:none}
+  .svc-grid,.why-grid,.vals,.kpis,.fgrid{grid-template-columns:minmax(0,1fr)}
+  .hero-grid{padding-block:42px}
+  .hero-cta .btn{flex:1 1 auto}
+  .svc{padding:22px}
+  .brand-sub{font-size:.55rem}
+  .brand-name{font-size:1.2rem}
+  .mono{width:40px;height:40px}
+  .bars,.mlabels{gap:6px}
+  .notice{flex-direction:column;gap:4px}
+  .fab{width:54px;height:54px;padding:0;justify-content:center;border-radius:50%}
+  .fab span{display:none}
+}
+@media (prefers-reduced-motion:reduce){
+  html{scroll-behavior:auto}
+  *,*::before,*::after{transition:none!important;animation:none!important}
+  .btn:hover,.svc:hover{transform:none}
+}
+</style>
+</head>
+<body>
+<a class="skip" href="#main">انتقل إلى المحتوى</a>
+
+<header class="site-header">
+  <div class="wrap hbar">
+    <a class="brand" href="#home" aria-label="Hany Arafa، الصفحة الرئيسية">
+      <span class="mono" aria-hidden="true">HA</span>
+      <span class="brand-text">
+        <span class="brand-name">Hany Arafa</span>
+        <span class="brand-sub">Accounting &amp; Financial Services</span>
+      </span>
+    </a>
+    <nav class="nav" id="nav" aria-label="التنقل الرئيسي">
+      <a href="#home">الرئيسية</a>
+      <a href="#services">الخدمات</a>
+      <a href="#about">نبذة عني</a>
+      <a href="#why-us">لماذا أنا؟</a>
+      <a href="#samples">نماذج أعمال</a>
+      <a href="#faq">الأسئلة الشائعة</a>
+      <a href="#contact">التواصل</a>
+    </nav>
+    <div class="hactions">
+      <a class="btn btn-gold hcta" href="#contact" data-wa>تواصل معي</a>
+      <button class="icon-btn" id="themeBtn" type="button" aria-label="تبديل المظهر الفاتح والداكن">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M20 14.5A8 8 0 0 1 9.5 4a8 8 0 1 0 10.5 10.5z"/></svg>
+      </button>
+      <button class="icon-btn menu-btn" id="menuBtn" type="button" aria-expanded="false" aria-controls="nav" aria-label="القائمة">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" aria-hidden="true"><path d="M4 7h16M4 12h16M4 17h16"/></svg>
+      </button>
+    </div>
+  </div>
+</header>
+
+<main id="main">
+
+<section class="hero" id="home">
+  <div class="wrap hero-grid">
+    <div>
+      <div class="kicker">دعم محاسبي ومالي عن بُعد للأعمال في المملكة العربية السعودية</div>
+      <h1>حسابات منظمة، وأرقام <em>تدعم قرارك</em></h1>
+      <p class="lead">أساعد أصحاب الأعمال على تنظيم حساباتهم، ومراجعة معاملاتهم المالية، وتحليل بياناتهم، وتحويل الأرقام إلى معلومات واضحة تدعم اتخاذ القرار.</p>
+      <div class="hero-cta">
+        <a class="btn btn-gold" href="#contact">اطلب عرض سعر</a>
+        <a class="btn btn-ghost" href="#services">استعرض الخدمات</a>
+        <a class="btn btn-ghost" href="#contact" data-wa data-wa-text="السلام عليكم أستاذ هاني، أرغب في الاستفسار عن خدماتك المحاسبية.">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M21 12a8.5 8.5 0 0 1-12.4 7.5L3 21l1.6-5.4A8.5 8.5 0 1 1 21 12z"/></svg>
+          واتساب
+        </a>
+      </div>
+    </div>
+    <aside class="ledger" aria-label="مثال توضيحي لملخص مالي">
+      <div class="ledger-head"><strong>ملخص المبيعات الشهري</strong><span class="tag">مثال توضيحي</span></div>
+      <div class="lrow"><span>إجمالي المبيعات</span><span class="v">268,000</span></div>
+      <div class="lrow"><span>الخصومات</span><span class="v">-21,400</span></div>
+      <div class="lrow"><span>رسوم بوابات الدفع</span><span class="v">-6,200</span></div>
+      <div class="lrow net"><span>الصافي</span><span class="v">240,400</span></div>
+      <div class="spark" aria-hidden="true"><i style="height:42%"></i><i style="height:55%"></i><i style="height:50%"></i><i style="height:68%"></i><i style="height:76%"></i><i style="height:100%"></i></div>
+      <p class="ledger-foot">أرقام تجريبية بالريال السعودي لعرض شكل التقارير فقط.</p>
+    </aside>
+  </div>
+  <div class="strip">
+    <div class="wrap">
+      <ul>
+        <li>تنظيم الحسابات</li>
+        <li>مراجعة المعاملات المالية</li>
+        <li>تحليل البيانات</li>
+        <li>معلومات تدعم القرار</li>
+      </ul>
+    </div>
+  </div>
+</section>
+
+<section class="section" id="services">
+  <div class="wrap">
+    <div class="sec-head">
+      <div class="eyebrow">الخدمات</div>
+      <h2>خدمات محاسبية ومالية بحسب احتياج نشاطك</h2>
+      <p>يمكنك طلب خدمة واحدة أو أكثر. اضغط «اطلب الخدمة» وسيُحدَّد نوع الطلب في نموذج التواصل.</p>
+    </div>
+    <div class="svc-grid" id="svcGrid"></div>
+    <noscript><p class="cap">لعرض الخدمات يلزم تفعيل JavaScript في المتصفح. للتواصل المباشر راسلني عبر واتساب على الرقم 0592401822.</p></noscript>
+  </div>
+</section>
+
+<section class="section alt" id="about">
+  <div class="wrap about-grid">
+    <div>
+      <div class="eyebrow">نبذة عني</div>
+      <h2 class="about-name">هاني عرفة</h2>
+      <div class="about-text">
+        <p>محاسب بخبرة عملية تزيد على 5 سنوات في الأعمال المحاسبية بالسوقين المصري والسعودي، وأقدّم دعمًا محاسبيًا وماليًا عن بُعد لأصحاب الأعمال والمنشآت الصغيرة والمتوسطة.</p>
+        <p>تشمل مجالات عملي تنظيم الحسابات والقيود، والمطابقات البنكية، ومراجعة المبيعات والتحصيلات، وتسويات بوابات الدفع مثل تابي وتمارا وميسباي، ومراجعة مبيعات التجارة الإلكترونية عبر منصات مثل سلة ونون.</p>
+        <p>أستخدم Excel لإعداد التقارير ولوحات المعلومات وتحليل المبيعات والخصومات، ولدي خبرة عملية في أنظمة SAP FI وOdoo. أحرص على توضيح نطاق العمل والمستندات المطلوبة قبل البدء، وتسليم ملفات منظمة تساعد صاحب العمل على المتابعة واتخاذ القرار.</p>
+      </div>
+      <div class="vals">
+        <div class="val"><b>وضوح</b><span>أرقام وتقارير يفهمها صاحب العمل دون خلفية محاسبية.</span></div>
+        <div class="val"><b>دقة</b><span>مطابقة كل رقم بمصدره قبل اعتماده.</span></div>
+        <div class="val"><b>ترتيب</b><span>ملفات وبيانات مرتبة يسهل الرجوع إليها.</span></div>
+      </div>
+    </div>
+    <div>
+      <div class="steps">
+        <h3>كيف نبدأ</h3>
+        <ol>
+          <li><div><b>نحدد نطاق العمل</b><span>تخبرني بالخدمة المطلوبة والبيانات المتوفرة لديك.</span></div></li>
+          <li><div><b>أنظّم وأراجع</b><span>أرتب البيانات وأطابقها وأراجعها وأحدد الفروقات إن وُجدت.</span></div></li>
+          <li><div><b>أسلّم نتيجة جاهزة</b><span>ملف أو تقرير واضح يمكنك استخدامه مباشرة في إدارة نشاطك.</span></div></li>
+        </ol>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="section why-section" id="why-us">
+  <div class="wrap">
+    <div class="sec-head">
+      <div class="eyebrow">لماذا تتعامل معي؟</div>
+      <h2>دعم عملي يساعدك على فهم أرقام نشاطك</h2>
+      <p>الهدف ليس مجرد تجهيز ملف، بل تنظيم البيانات وإظهار الفروقات والمعلومات المهمة بصورة واضحة وقابلة للمتابعة.</p>
+    </div>
+    <div class="why-grid">
+      <article class="why-card"><span class="why-ic" aria-hidden="true"><svg viewBox="0 0 24 24"><circle cx="12" cy="12" r="9"/><path d="M3 12h18M12 3a14 14 0 0 1 0 18M12 3a14 14 0 0 0 0 18"/></svg></span><h3>خبرة في بيئات عمل مختلفة</h3><p>خبرة عملية في الأعمال المحاسبية بالسوقين المصري والسعودي، مع فهم لطبيعة العمليات اليومية والتحصيلات.</p></article>
+      <article class="why-card"><span class="why-ic" aria-hidden="true"><svg viewBox="0 0 24 24"><path d="M6 3h9l4 4v14H6z"/><path d="M14 3v5h5M9 14l2 2 4-4"/></svg></span><h3>مطابقات مبنية على المستندات</h3><p>مقارنة كشوف الحساب والتقارير والفواتير لتحديد الفروقات وشرحها بدل الاكتفاء بعرض الإجماليات.</p></article>
+      <article class="why-card"><span class="why-ic" aria-hidden="true"><svg viewBox="0 0 24 24"><path d="M4 20V10M10 20V4M16 20v-8M21 20H3"/></svg></span><h3>تقارير سهلة القراءة</h3><p>تنظيم النتائج في جداول وتقارير ولوحات Excel تساعدك على متابعة المبيعات والتحصيلات والخصومات.</p></article>
+      <article class="why-card"><span class="why-ic" aria-hidden="true"><svg viewBox="0 0 24 24"><path d="M9 6h11M9 12h11M9 18h11M4 6l1 1 2-2M4 12l1 1 2-2M4 18l1 1 2-2"/></svg></span><h3>نطاق عمل واضح</h3><p>تحديد المطلوب والبيانات المتاحة والمخرجات المتوقعة قبل البدء، مع توضيح أي نقاط تحتاج إلى استكمال.</p></article>
+    </div>
+  </div>
+</section>
+
+<section class="section" id="samples">
+  <div class="wrap">
+    <div class="sec-head">
+      <div class="eyebrow">نماذج أعمال توضيحية</div>
+      <h2>شكل المخرجات التي يمكن أن تستلمها</h2>
+      <p>ثلاثة نماذج تعرض أسلوب الترتيب والتقارير. جميع الأسماء والأرقام فيها تجريبية.</p>
+    </div>
+    <div class="notice"><b>بيانات تجريبية</b><span>هذه النماذج لا تمثل أي عميل أو حساب حقيقي، وهي مُعدّة لعرض الفكرة فقط.</span></div>
+    <div class="tabs" role="tablist" aria-label="نماذج الأعمال">
+      <button class="tab" role="tab" id="tab-bank" aria-selected="true" aria-controls="panel-bank" type="button">مطابقة بنكية</button>
+      <button class="tab" role="tab" id="tab-bnpl" aria-selected="false" aria-controls="panel-bnpl" type="button" tabindex="-1">تسويات تابي وتمارا</button>
+      <button class="tab" role="tab" id="tab-dash" aria-selected="false" aria-controls="panel-dash" type="button" tabindex="-1">لوحة المبيعات والخصومات</button>
+    </div>
+    <div role="tabpanel" id="panel-bank" aria-labelledby="tab-bank"></div>
+    <div role="tabpanel" id="panel-bnpl" aria-labelledby="tab-bnpl" hidden></div>
+    <div role="tabpanel" id="panel-dash" aria-labelledby="tab-dash" hidden></div>
+  </div>
+</section>
+
+<section class="section alt" id="faq">
+  <div class="wrap">
+    <div class="sec-head">
+      <div class="eyebrow">الأسئلة الشائعة</div>
+      <h2>أسئلة قبل البدء</h2>
+    </div>
+    <div class="faq">
+      <details open><summary>من هم العملاء المناسبون لخدماتك؟</summary><p>أصحاب الأعمال والشركات والمؤسسات الصغيرة والمتوسطة في المملكة العربية السعودية، سواء احتاجوا خدمة واحدة أو عدة خدمات.</p></details>
+      <details><summary>هل يمكنني طلب خدمة واحدة فقط؟</summary><p>نعم. يمكنك اختيار الخدمة التي تحتاجها، مثل المطابقات البنكية أو إعداد ملف Excel، دون الارتباط بباقي الخدمات.</p></details>
+      <details><summary>ما الذي أحتاجه لبدء العمل؟</summary><p>يختلف حسب الخدمة. غالبًا ستحتاج إلى كشوف الحساب البنكية وفواتير المبيعات والمشتريات وملفات الحسابات الحالية. أحدد لك المطلوب بعد معرفة تفاصيل طلبك.</p></details>
+      <details><summary>هل تعمل على النظام المحاسبي الذي نستخدمه؟</summary><p>أقدّم مساعدة عملية في أنظمة مثل SAP وOdoo بحسب نطاق المهمة وإمكانية الوصول إلى البيانات. اذكر اسم النظام في الطلب لتحديد ما يمكن تنفيذه.</p></details>
+      <details><summary>كيف تُحدد تكلفة الخدمة؟</summary><p>تُحدد التكلفة بحسب حجم البيانات وطبيعة العمل المطلوب. أرسل تفاصيل طلبك وسأرد عليك بالتقدير بعد مراجعتها.</p></details>
+      <details><summary>هل النماذج المعروضة في الموقع حقيقية؟</summary><p>لا. النماذج في قسم «نماذج أعمال توضيحية» مبنية على بيانات تجريبية لعرض شكل المخرجات فقط.</p></details>
+      <details><summary>كيف أبدأ؟</summary><p>املأ نموذج الاستفسار في قسم التواصل أو راسلني عبر واتساب، واذكر الخدمة المطلوبة ونبذة عن نشاطك.</p></details>
+    </div>
+  </div>
+</section>
+
+<section class="section" id="contact">
+  <div class="wrap">
+    <div class="sec-head">
+      <div class="eyebrow">التواصل</div>
+      <h2>أرسل استفسارك عن الخدمة</h2>
+      <p>اكتب تفاصيل طلبك، وسيجهّز النموذج رسالة يمكنك مراجعتها وإرسالها عبر واتساب. ويمكنك التواصل معي مباشرة عبر رقم الجوال أو البريد الإلكتروني.</p>
+    </div>
+    <div class="contact-grid">
+      <div class="cside">
+        <h3>تحدث معي مباشرة</h3>
+        <p>للاستفسارات السريعة، راسلني عبر واتساب وأخبرني بالخدمة التي تهمك.</p>
+        <a class="btn btn-wa" href="#contact" data-wa data-wa-text="السلام عليكم أستاذ هاني، أرغب في الاستفسار عن خدماتك المحاسبية.">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M21 12a8.5 8.5 0 0 1-12.4 7.5L3 21l1.6-5.4A8.5 8.5 0 1 1 21 12z"/></svg>
+          راسلني على واتساب
+        </a>
+        <ul class="cdetails" id="cdetails"></ul>
+      </div>
+      <div class="cform">
+        <form id="inq" novalidate aria-label="نموذج الاستفسار عن خدمة محاسبية">
+          <div class="fgrid">
+            <div class="field"><label for="f-name">الاسم</label><input id="f-name" name="name" type="text" autocomplete="name" required aria-describedby="e-name"><div class="err" id="e-name" aria-live="polite"></div></div>
+            <div class="field"><label for="f-co">اسم المنشأة <i>(اختياري)</i></label><input id="f-co" name="company" type="text" autocomplete="organization"></div>
+            <div class="field"><label for="f-phone">رقم الجوال <i>(اختياري)</i></label><input id="f-phone" name="phone" type="tel" inputmode="tel" autocomplete="tel" dir="ltr" class="ltr-input" placeholder="05XXXXXXXX" aria-describedby="e-phone"><div class="err" id="e-phone" aria-live="polite"></div></div>
+            <div class="field"><label for="f-svc">الخدمة المطلوبة</label><select id="f-svc" name="service"></select></div>
+            <div class="field full"><label for="f-msg">تفاصيل الطلب</label><textarea id="f-msg" name="message" required aria-describedby="e-msg" placeholder="مثال: نشاط تجاري إلكتروني، أحتاج مطابقة تسويات الشهر الماضي."></textarea><div class="err" id="e-msg" aria-live="polite"></div></div>
+          </div>
+          <div class="form-actions"><button class="btn btn-gold" type="submit">جهّز رسالة الاستفسار</button></div>
+          <p class="fnote">تنبيه للخصوصية: هذا النموذج لا يرسل البيانات إلى خادم ولا يحفظها على الموقع. تُجهّز الرسالة داخل متصفحك، ولن تُرسل إليّ إلا إذا ضغطت على زر واتساب وأرسلتها بنفسك. لا ترفق كلمات مرور أو بيانات بنكية حساسة.</p>
+        </form>
+        <div class="result" id="result" hidden>
+          <h4>رسالتك جاهزة</h4>
+          <p>راجع النص، ثم أرسله عبر واتساب أو انسخه.</p>
+          <label class="sr" for="r-text">نص الرسالة</label>
+          <textarea id="r-text" readonly></textarea>
+          <div class="row">
+            <a class="btn btn-wa" id="r-wa" href="#contact" data-wa>إرسال عبر واتساب</a>
+            <button class="btn btn-line" id="r-copy" type="button">نسخ الرسالة</button>
+            <span class="status" id="r-status" role="status" aria-live="polite"></span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+</main>
+
+<footer>
+  <div class="wrap">
+    <div class="fgrid2">
+      <div class="brand">
+        <span class="mono" aria-hidden="true">HA</span>
+        <span class="brand-text"><span class="brand-name">Hany Arafa</span><span class="brand-sub">Accounting &amp; Financial Services</span></span>
+      </div>
+      <nav class="flinks" aria-label="روابط التذييل">
+        <a href="#services">الخدمات</a><a href="#about">نبذة عني</a><a href="#why-us">لماذا أنا؟</a><a href="#samples">نماذج أعمال</a><a href="#faq">الأسئلة الشائعة</a><a href="#contact">التواصل</a>
+      </nav>
+    </div>
+    <div class="copy">© <span id="yr">2026</span> هاني عرفة. جميع الحقوق محفوظة. النماذج المعروضة في الموقع تجريبية.</div>
+  </div>
+</footer>
+
+<a class="fab" href="#contact" data-wa data-wa-text="السلام عليكم أستاذ هاني، أرغب في الاستفسار عن خدماتك المحاسبية." aria-label="تواصل عبر واتساب">
+  <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M21 12a8.5 8.5 0 0 1-12.4 7.5L3 21l1.6-5.4A8.5 8.5 0 1 1 21 12z"/><path d="M9 9.5c.3 2.2 2.3 4.2 4.5 4.5l1.2-1.2-1.8-1-.8.7c-.7-.3-1.4-1-1.7-1.7l.7-.8-1-1.8z"/></svg>
+  <span>واتساب</span>
+</a>
+
+<script>
+/* إعدادات التواصل: عدّل هذه القيم فقط.
+   whatsapp: الرقم بصيغة دولية بدون + أو أصفار، مثل 9665XXXXXXXX
+   phoneDisplay / email: تظهر في قسم التواصل. */
+var CONFIG = { whatsapp: "966592401822", phoneDisplay: "0592401822", email: "hanyarafa08@gmail.com" };
+
+var SERVICES = [
+  { id: "tax", title: "تجهيز الإقرارات الضريبية", desc: "ترتيب بيانات المبيعات والمشتريات وتجهيز الإقرار الضريبي لمنشأتك ليكون جاهزًا للمراجعة.", icon: '<path d="M6 3h9l4 4v14H6z"/><path d="M14 3v5h5M9 13h7M9 17h5"/>' },
+  { id: "books", title: "مسك الدفاتر وتنظيم الحسابات", desc: "تسجيل القيود وتصنيفها وتنظيم الحسابات بصورة مرتبة تسهّل المتابعة والمراجعة.", icon: '<path d="M5 4h11a3 3 0 0 1 3 3v13H8a3 3 0 0 1-3-3z"/><path d="M5 17a3 3 0 0 1 3-3h11"/>' },
+  { id: "bank", title: "المطابقات البنكية", desc: "مطابقة كشوف الحساب البنكية مع الدفاتر وتحديد الفروقات والقيود غير المسجلة.", icon: '<path d="M3 10l9-6 9 6M5 10v8M9.5 10v8M14.5 10v8M19 10v8M3 20h18"/>' },
+  { id: "bnpl", title: "تسويات تابي وتمارا وبوابات الدفع", desc: "مطابقة تسويات تابي وتمارا وبوابات الدفع الإلكتروني مع المبيعات، وتحديد الرسوم والفروقات.", icon: '<rect x="3" y="6" width="18" height="12" rx="1.5"/><path d="M3 10h18M7 15h4"/>' },
+  { id: "excel", title: "إعداد ملفات Excel المحاسبية", desc: "إعداد ملفات Excel منظمة بمعادلات واضحة، مصممة بحسب طبيعة عملك.", icon: '<rect x="4" y="4" width="16" height="16" rx="1"/><path d="M4 10h16M4 15h16M10 4v16"/>' },
+  { id: "dash", title: "لوحات المعلومات والتقارير المالية", desc: "تحويل بياناتك إلى لوحات معلومات وتقارير مالية تُظهر الصورة العامة بوضوح.", icon: '<path d="M4 20V10M10 20V4M16 20v-8M21 20H3"/>' },
+  { id: "sales", title: "تحليل المبيعات والخصومات", desc: "تحليل المبيعات والخصومات لفهم أثرها على الإيراد ومعرفة أين تذهب هوامشك.", icon: '<path d="M3 17l6-6 4 4 8-8"/><path d="M15 7h6v6"/>' },
+  { id: "erp", title: "المساعدة في الأنظمة المحاسبية (SAP وOdoo)", desc: "مساعدة في استخدام الأنظمة المحاسبية مثل SAP وOdoo، وتنظيم البيانات والتقارير داخلها.", icon: '<path d="M12 3l9 5-9 5-9-5z"/><path d="M3 13l9 5 9-5"/>' }
+];
+
+function $(s, r) { return (r || document).querySelector(s); }
+function $all(s, r) { return Array.prototype.slice.call((r || document).querySelectorAll(s)); }
+function fmt(n) { return n.toLocaleString("en-US", { minimumFractionDigits: 2, maximumFractionDigits: 2 }); }
+function fmt0(n) { return n.toLocaleString("en-US", { maximumFractionDigits: 0 }); }
+function pill(kind, text) { return '<span class="pill ' + kind + '">' + text + '</span>'; }
+
+function esc(s) {
+  return String(s).replace(/[&<>"']/g, function (c) {
+    return { "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;", "'": "&#39;" }[c];
+  });
+}
+var reduceMotion = !!(window.matchMedia && window.matchMedia("(prefers-reduced-motion: reduce)").matches);
+function goTo(id) {
+  var el = document.getElementById(id);
+  if (el) el.scrollIntoView({ behavior: reduceMotion ? "auto" : "smooth", block: "start" });
+}
+
+/* ---- واتساب والاتصال ---- */
+function waNumber() { return (CONFIG.whatsapp || "").replace(/\D/g, ""); }
+function waLink(text) {
+  var n = waNumber();
+  if (!n) return "";
+  return "https://wa.me/" + n + (text ? "?text=" + encodeURIComponent(text) : "");
+}
+function telHref() {
+  var d = (CONFIG.phoneDisplay || "").replace(/\D/g, "");
+  if (!d) return "";
+  if (d.indexOf("966") === 0) return "tel:+" + d;
+  if (d.charAt(0) === "0") d = d.slice(1);
+  return "tel:+966" + d;
+}
+function setExternal(a, on) {
+  if (on) { a.setAttribute("target", "_blank"); a.setAttribute("rel", "noopener noreferrer"); }
+  else { a.removeAttribute("target"); a.removeAttribute("rel"); }
+}
+function wireWa() {
+  $all("[data-wa]").forEach(function (a) {
+    var link = waLink(a.getAttribute("data-wa-text") || "");
+    if (link) { a.setAttribute("href", link); setExternal(a, true); }
+    else if (CONFIG.email) { a.setAttribute("href", "mailto:" + CONFIG.email); setExternal(a, false); }
+    else { a.setAttribute("href", "#contact"); setExternal(a, false); }
+  });
+}
+
+/* ---- الخدمات ---- */
+var grid = $("#svcGrid");
+grid.innerHTML = SERVICES.map(function (s) {
+  return '<article class="svc"><div class="ic"><svg viewBox="0 0 24 24" aria-hidden="true">' + s.icon + '</svg></div>' +
+    '<h3>' + s.title + '</h3><p>' + s.desc + '</p>' +
+    '<button class="btn btn-line" type="button" data-svc="' + s.id + '" aria-label="اطلب خدمة: ' + s.title + '">اطلب الخدمة</button></article>';
+}).join("");
+
+var sel = $("#f-svc");
+sel.innerHTML = '<option value="">استفسار عام</option>' + SERVICES.map(function (s) {
+  return '<option value="' + s.id + '">' + s.title + '</option>';
+}).join("");
+
+grid.addEventListener("click", function (e) {
+  var b = e.target.closest("[data-svc]");
+  if (!b) return;
+  sel.value = b.getAttribute("data-svc");
+  goTo("contact");
+  setTimeout(function () { var m = $("#f-name"); if (m) m.focus({ preventScroll: true }); }, reduceMotion ? 0 : 500);
+});
+
+/* ---- بيانات التواصل ---- */
+(function () {
+  var items = [];
+  if (CONFIG.phoneDisplay) {
+    items.push('<li><small>الجوال</small><a class="contact-link" href="' + esc(telHref() || "#contact") + '" dir="ltr">' + esc(CONFIG.phoneDisplay) + '</a></li>');
+  }
+  if (CONFIG.email) {
+    items.push('<li><small>البريد الإلكتروني</small><a class="contact-link" href="mailto:' + esc(CONFIG.email) + '" dir="ltr">' + esc(CONFIG.email) + '</a></li>');
+  }
+  $("#cdetails").innerHTML = items.join("");
+})();
+
+/* ---- نموذج الاستفسار ---- */
+var form = $("#inq"), fName = $("#f-name"), fPhone = $("#f-phone"), fMsg = $("#f-msg");
+function normDigits(s) {
+  return String(s).replace(/[٠-٩]/g, function (d) { return d.charCodeAt(0) - 0x0660; });
+}
+function validPhone(v) {
+  var d = normDigits(v).replace(/[\s\-()]/g, "");
+  return /^(?:\+?966|00966|0)?5\d{8}$/.test(d);
+}
+function setErr(input, errId, msg) {
+  $("#" + errId).textContent = msg || "";
+  if (msg) input.setAttribute("aria-invalid", "true"); else input.removeAttribute("aria-invalid");
+}
+[[fName, "e-name"], [fPhone, "e-phone"], [fMsg, "e-msg"]].forEach(function (p) {
+  p[0].addEventListener("input", function () { setErr(p[0], p[1], ""); });
+});
+form.addEventListener("submit", function (e) {
+  e.preventDefault();
+  var name = fName.value.trim(), phone = fPhone.value.trim(), msg = fMsg.value.trim();
+  var nameErr = name.length < 2 ? "اكتب اسمك." : "";
+  var phoneErr = phone && !validPhone(phone) ? "اكتب رقم جوال سعودي صحيحًا، مثل 05XXXXXXXX." : "";
+  var msgErr = msg.length < 5 ? "اكتب تفاصيل طلبك." : "";
+  setErr(fName, "e-name", nameErr);
+  setErr(fPhone, "e-phone", phoneErr);
+  setErr(fMsg, "e-msg", msgErr);
+  var first = nameErr ? fName : phoneErr ? fPhone : msgErr ? fMsg : null;
+  if (first) { first.focus(); return; }
+  var svc = SERVICES.filter(function (s) { return s.id === sel.value; })[0];
+  var lines = ["السلام عليكم،", "أرغب في الاستفسار عن: " + (svc ? svc.title : "خدماتكم المحاسبية والمالية"), "الاسم: " + name];
+  var co = $("#f-co").value.trim();
+  if (co) lines.push("المنشأة: " + co);
+  if (phone) lines.push("الجوال: " + phone);
+  lines.push("التفاصيل: " + msg);
+  var text = lines.join("\n");
+  $("#r-text").value = text;
+  $("#r-status").textContent = "";
+  var wa = $("#r-wa"), link = waLink(text);
+  if (link) { wa.setAttribute("href", link); setExternal(wa, true); }
+  else if (CONFIG.email) { wa.setAttribute("href", "mailto:" + CONFIG.email + "?body=" + encodeURIComponent(text)); setExternal(wa, false); }
+  else { wa.setAttribute("href", "#contact"); setExternal(wa, false); }
+  var box = $("#result");
+  box.hidden = false;
+  box.scrollIntoView({ behavior: reduceMotion ? "auto" : "smooth", block: "nearest" });
+});
+$("#r-copy").addEventListener("click", function () {
+  var ta = $("#r-text"), st = $("#r-status");
+  function fallback() { ta.focus(); ta.select(); st.textContent = "حدّد النص وانسخه يدويًا."; }
+  try {
+    navigator.clipboard.writeText(ta.value).then(function () { st.textContent = "تم نسخ الرسالة."; }, fallback);
+  } catch (err) { fallback(); }
+});
+
+/* ---- Sample work ---- */
+var bankRows = [
+  { d: "02/09/2026", t: "تحويل وارد من عميل", bank: 12500, led: 12500, st: ["ok", "مطابق"] },
+  { d: "05/09/2026", t: "سداد مورد", bank: -8200, led: -8200, st: ["ok", "مطابق"] },
+  { d: "09/09/2026", t: "رسوم بنكية", bank: -45, led: 0, st: ["bad", "غير مسجل في الدفاتر"] },
+  { d: "14/09/2026", t: "تحويل وارد من عميل", bank: 6750, led: 6570, st: ["warn", "فرق في المبلغ"] },
+  { d: "18/09/2026", t: "شيك صادر", bank: 0, led: -3000, st: ["idle", "معلّق، لم يُصرف بعد"] },
+  { d: "25/09/2026", t: "تسوية بوابة دفع", bank: 9420, led: 9420, st: ["ok", "مطابق"] }
+];
+var bBank = 0, bLed = 0;
+bankRows.forEach(function (r) { bBank += r.bank; bLed += r.led; });
+$("#panel-bank").innerHTML =
+  '<div class="kpis"><div class="kpi"><small>إجمالي الحركة حسب الكشف البنكي</small><strong>' + fmt(bBank) + '</strong></div>' +
+  '<div class="kpi"><small>إجمالي الحركة حسب الدفاتر</small><strong>' + fmt(bLed) + '</strong></div>' +
+  '<div class="kpi hi"><small>الفرق المطلوب تفسيره</small><strong>' + fmt(bBank - bLed) + '</strong></div></div>' +
+  '<div class="tablewrap"><table><thead><tr><th>التاريخ</th><th>البيان</th><th class="num">الكشف البنكي</th><th class="num">الدفاتر</th><th class="num">الفرق</th><th>الحالة</th></tr></thead><tbody>' +
+  bankRows.map(function (r) {
+    return '<tr><td class="num">' + r.d + '</td><td>' + r.t + '</td><td class="num">' + fmt(r.bank) + '</td><td class="num">' + fmt(r.led) + '</td><td class="num">' + fmt(r.bank - r.led) + '</td><td>' + pill(r.st[0], r.st[1]) + '</td></tr>';
+  }).join("") +
+  '</tbody><tfoot><tr><td colspan="2">الإجمالي</td><td class="num">' + fmt(bBank) + '</td><td class="num">' + fmt(bLed) + '</td><td class="num">' + fmt(bBank - bLed) + '</td><td></td></tr></tfoot></table></div>' +
+  '<p class="cap">مثال توضيحي: الفرق الإجمالي يتفكك إلى رسوم بنكية غير مسجلة، وخطأ في مبلغ تحويل، وشيك لم يُصرف بعد.</p>';
+
+var bnpl = [
+  { n: "تابي", g: 48000, r: 2000, f: 1380, rec: 44120 },
+  { n: "تمارا", g: 31500, r: 0, f: 1260, rec: 30240 },
+  { n: "بوابة دفع إلكتروني", g: 22300, r: 300, f: 520, rec: 21480 }
+];
+var tg = 0, tr = 0, tf = 0, te = 0, trc = 0;
+var bnplRows = bnpl.map(function (x) {
+  var exp = x.g - x.r - x.f, diff = x.rec - exp;
+  tg += x.g; tr += x.r; tf += x.f; te += exp; trc += x.rec;
+  return '<tr><td>' + x.n + '</td><td class="num">' + fmt(x.g) + '</td><td class="num">' + fmt(x.r) + '</td><td class="num">' + fmt(x.f) + '</td><td class="num">' + fmt(exp) + '</td><td class="num">' + fmt(x.rec) + '</td><td class="num">' + fmt(diff) + '</td><td>' + (diff === 0 ? pill("ok", "مطابق") : pill("warn", "قيد المراجعة")) + '</td></tr>';
+}).join("");
+$("#panel-bnpl").innerHTML =
+  '<div class="kpis"><div class="kpi"><small>صافي التسويات المتوقع</small><strong>' + fmt(te) + '</strong></div>' +
+  '<div class="kpi"><small>المستلم فعليًا</small><strong>' + fmt(trc) + '</strong></div>' +
+  '<div class="kpi hi"><small>الفرق</small><strong>' + fmt(trc - te) + '</strong></div></div>' +
+  '<div class="tablewrap"><table><thead><tr><th>القناة</th><th class="num">المبيعات</th><th class="num">المرتجعات</th><th class="num">الرسوم</th><th class="num">الصافي المتوقع</th><th class="num">المستلم</th><th class="num">الفرق</th><th>الحالة</th></tr></thead><tbody>' +
+  bnplRows + '</tbody><tfoot><tr><td>الإجمالي</td><td class="num">' + fmt(tg) + '</td><td class="num">' + fmt(tr) + '</td><td class="num">' + fmt(tf) + '</td><td class="num">' + fmt(te) + '</td><td class="num">' + fmt(trc) + '</td><td class="num">' + fmt(trc - te) + '</td><td></td></tr></tfoot></table></div>' +
+  '<p class="cap">مثال توضيحي: يظهر الفرق ليتم تتبعه إلى الطلب أو الاسترجاع المسبب له قبل إقفال الفترة. الأرقام تجريبية ولا تعكس رسوم أي جهة.</p>';
+
+var months = [["أبريل", 182], ["مايو", 205], ["يونيو", 198], ["يوليو", 231], ["أغسطس", 247], ["سبتمبر", 268]];
+var channels = [["المتجر", 520000, 21840], ["الموقع الإلكتروني", 610000, 47580], ["الحملات الترويجية", 201000, 25125]];
+var mSum = 0, mMax = 0;
+months.forEach(function (m) { mSum += m[1]; if (m[1] > mMax) mMax = m[1]; });
+var gSum = 0, dSum = 0, rMax = 0;
+channels.forEach(function (c) { gSum += c[1]; dSum += c[2]; var r = c[2] / c[1]; if (r > rMax) rMax = r; });
+$("#panel-dash").innerHTML =
+  '<div class="kpis"><div class="kpi"><small>إجمالي المبيعات (6 أشهر)</small><strong>' + fmt0(gSum) + '</strong></div>' +
+  '<div class="kpi"><small>إجمالي الخصومات</small><strong>' + fmt0(dSum) + '</strong></div>' +
+  '<div class="kpi hi"><small>نسبة الخصم من المبيعات</small><strong>' + (dSum / gSum * 100).toFixed(1) + '%</strong></div></div>' +
+  '<div class="dash"><div class="panel"><h3>المبيعات الشهرية</h3><div class="sub">بالألف ريال سعودي، بيانات تجريبية</div>' +
+  '<div class="bars" role="img" aria-label="رسم أعمدة للمبيعات الشهرية">' +
+  months.map(function (m, i) { return '<div class="bcol' + (i === months.length - 1 ? ' hi' : '') + '"><span class="bv">' + m[1] + '</span><div class="b" style="height:' + (m[1] / mMax * 78).toFixed(1) + '%"></div></div>'; }).join("") +
+  '</div><div class="mlabels">' + months.map(function (m) { return '<span>' + m[0] + '</span>'; }).join("") + '</div></div>' +
+  '<div class="panel"><h3>الخصومات حسب القناة</h3><div class="sub">نسبة الخصم من إجمالي مبيعات كل قناة</div>' +
+  channels.map(function (c) {
+    var r = c[2] / c[1];
+    return '<div class="drow"><div class="dtop"><span>' + c[0] + '</span><b>' + (r * 100).toFixed(1) + '%</b></div><div class="dtrack"><div class="dfill' + (r === rMax ? ' hi' : '') + '" style="width:' + (r / rMax * 100).toFixed(1) + '%"></div></div><div class="dmeta">خصومات ' + fmt0(c[2]) + ' من مبيعات ' + fmt0(c[1]) + '</div></div>';
+  }).join("") + '</div></div>' +
+  '<p class="cap">مثال توضيحي: تُظهر اللوحة القناة الأعلى خصمًا ليسهل اتخاذ قرار بشأن الحملات والتسعير.</p>';
+
+/* tabs */
+var tabs = $all(".tab");
+function showTab(t) {
+  tabs.forEach(function (x) {
+    var on = x === t;
+    x.setAttribute("aria-selected", on ? "true" : "false");
+    x.setAttribute("tabindex", on ? "0" : "-1");
+    document.getElementById(x.getAttribute("aria-controls")).hidden = !on;
+  });
+}
+tabs.forEach(function (t, i) {
+  t.addEventListener("click", function () { showTab(t); });
+  t.addEventListener("keydown", function (e) {
+    var n;
+    if (e.key === "Home") n = tabs[0];
+    else if (e.key === "End") n = tabs[tabs.length - 1];
+    else {
+      var d = e.key === "ArrowLeft" ? 1 : e.key === "ArrowRight" ? -1 : 0;
+      if (!d) return;
+      n = tabs[(i + d + tabs.length) % tabs.length];
+    }
+    showTab(n); n.focus(); e.preventDefault();
+  });
+});
+
+/* ---- التنقل ---- */
+var menuBtn = $("#menuBtn"), nav = $("#nav");
+function closeMenu() {
+  nav.classList.remove("open");
+  menuBtn.setAttribute("aria-expanded", "false");
+}
+menuBtn.addEventListener("click", function () {
+  var open = nav.classList.toggle("open");
+  menuBtn.setAttribute("aria-expanded", open ? "true" : "false");
+});
+document.addEventListener("keydown", function (e) {
+  if (e.key === "Escape" && nav.classList.contains("open")) { closeMenu(); menuBtn.focus(); }
+});
+document.addEventListener("click", function (e) {
+  if (nav.classList.contains("open") && !e.target.closest("#nav") && !e.target.closest("#menuBtn")) closeMenu();
+  var a = e.target.closest('a[href^="#"]');
+  if (!a || a.getAttribute("target") === "_blank") return;
+  var id = a.getAttribute("href").slice(1);
+  if (!id || !document.getElementById(id)) return;
+  e.preventDefault();
+  closeMenu();
+  goTo(id);
+  try { history.replaceState(null, "", "#" + id); } catch (err) {}
+});
+
+/* تمييز القسم الحالي في القائمة وإخفاء زر واتساب العائم عند ظهور قسم التواصل */
+(function () {
+  if (!("IntersectionObserver" in window)) return;
+  var links = $all("#nav a"), map = {};
+  links.forEach(function (a) { map[a.getAttribute("href").slice(1)] = a; });
+  var io = new IntersectionObserver(function (entries) {
+    entries.forEach(function (en) {
+      if (!en.isIntersecting) return;
+      links.forEach(function (a) { a.removeAttribute("aria-current"); });
+      var a = map[en.target.id];
+      if (a) a.setAttribute("aria-current", "location");
+    });
+  }, { rootMargin: "-45% 0px -50% 0px" });
+  Object.keys(map).forEach(function (id) {
+    var s = document.getElementById(id);
+    if (s) io.observe(s);
+  });
+  var fab = $(".fab"), contact = $("#contact");
+  if (fab && contact) {
+    new IntersectionObserver(function (en) {
+      fab.classList.toggle("is-hidden", en[0].isIntersecting);
+    }, { threshold: 0.25 }).observe(contact);
+  }
+})();
+
+/* ---- المظهر الفاتح والداكن ---- */
+(function () {
+  var btn = $("#themeBtn"), root = document.documentElement;
+  btn.addEventListener("click", function () {
+    var cur = root.getAttribute("data-theme");
+    if (!cur) cur = window.matchMedia && window.matchMedia("(prefers-color-scheme: dark)").matches ? "dark" : "light";
+    var next = cur === "dark" ? "light" : "dark";
+    root.setAttribute("data-theme", next);
+    try { localStorage.setItem("ha-theme", next); } catch (e) {}
+  });
+})();
+
+$("#yr").textContent = new Date().getFullYear();
+wireWa();
+
+/* الانتقال إلى القسم المطلوب في الرابط بعد بناء المحتوى الديناميكي */
+if (location.hash.length > 1) {
+  try {
+    var target = decodeURIComponent(location.hash.slice(1));
+    setTimeout(function () { goTo(target); }, 120);
+  } catch (err) {}
+}
+</script>
+
+</body>
+</html>
